@@ -649,7 +649,7 @@
 
 .control-bar {
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 0%;
     transform: translateY(-50%);
     width: 100%;
@@ -657,7 +657,7 @@
     background: #222222;
     display: flex;
     justify-content: center;
-    user-select: none;
+    user-select: none
 }
 
 .control-bar .buttons {
@@ -669,16 +669,16 @@
 .control-bar .buttons .button {
     width: 130px;
     height: 100px;
-    background: linear-gradient(90deg, #E23333, #FFFFFF, #FFFFFF, #FFFFFF);
+    background: linear-gradient(90deg, #333, #333, #6442ca, #6442ca);
     transform: skewX(-10deg) scaleX(1);
     transition: transform 0.2s ease-out;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 2px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .control-bar .buttons .button .inner {
@@ -686,8 +686,8 @@
     transition: transform 0.2s ease-out;
     color: #ffffff;
     text-align: center;
-    /* text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5); */
-    pointer-events: none;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    pointer-events: none
 }
 
 .control-bar .buttons .button .inner .icon i {
@@ -705,8 +705,8 @@
     margin-right: -10px;
     z-index: 4;
     transform-origin: right;
-    background: #E23333;
-    box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.5);
+    background: #333333;
+    box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.5)
 }
 
 .control-bar .buttons .button.left .inner {
@@ -729,12 +729,11 @@
 .control-bar .buttons .button.right {
     margin-left: -10px;
     transform-origin: left;
-    /* box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.2) */
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.2)
 }
 
 .control-bar .buttons .button.right .inner {
-    transform: skewX(10deg) scaleX(1) translateX(2px);
-    color: #F75E5E;
+    transform: skewX(10deg) scaleX(1) translateX(2px)
 }
 
 .control-bar .buttons .button.right:hover {
@@ -747,8 +746,8 @@
 
 .control-bar .buttons .button.right.one {
     z-index: 4;
-    background: #FFFFFF;
-    /* background: linear-gradient(90deg, #6442ca, #9C27B0); */
+    /* background:#6442ca; */
+    background: linear-gradient(90deg, #6442ca, #9C27B0);
 }
 
 .control-bar .buttons .button.right.one:hover~.button.right.two,
@@ -759,8 +758,8 @@
 
 .control-bar .buttons .button.right.two {
     z-index: 3;
-    background: #FFFFFF;
-    /* background: linear-gradient(50deg, #ecef10, #ffa730); */
+    /* background:#ef9010 */
+    background: linear-gradient(50deg, #ecef10, #ffa730);
 }
 
 .control-bar .buttons .button.right.two:hover~.button.right.three,
@@ -770,8 +769,8 @@
 
 .control-bar .buttons .button.right.three {
     z-index: 2;
-    background: #FFFFFF;
-    /* background: linear-gradient(45deg, #8fd80d, #00d81e); */
+    /* background:#8fd80d; */
+    background: linear-gradient(45deg, #8fd80d, #00d81e);
 }
 
 .control-bar .buttons .button.right.three:hover~.button.right.four {
@@ -780,8 +779,8 @@
 
 .control-bar .buttons .button.right.four {
     z-index: 1;
-    background: #FFFFFF;
-    /* background: linear-gradient(45deg, #EC3098, #dc0); */
+    /* background:#EC3098 */
+    background: linear-gradient(45deg, #EC3098, #dc0);
 }
 
 .control-bar .buttons .button.right.four .icon.on {
@@ -877,7 +876,7 @@
 
 .player-data-box {
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     padding: 15px;
     background-color: #151515;
@@ -1970,7 +1969,6 @@
     position: fixed;
     bottom: 0px;
     left: 50%;
-    height: 20px;
     transform: translateX(-50%);
     color: #6b6b6b;
     background: #090909;
@@ -1981,7 +1979,7 @@
     display: flex;
     flex-direction: row;
     user-select: none;
-    z-index: -1;
+    z-index: -1
 }
 
 .info-bar .divider {
@@ -1992,7 +1990,7 @@
 
 .info-bar a {
     color: #6b6b6b;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .info-bar a:hover i {
@@ -2045,7 +2043,7 @@
 #loading-screen .bg {
     width: 100%;
     height: 100%;
-    background-image: url(https://i.imgur.com/Za1OytT.jpg);
+    background-image: url(https://hslo.sigr.io/assets/loader_bg.jpg?03270a652a2b992e02da6b2371b822e2);
     background-size: cover;
     background-position: center;
     opacity: 0
@@ -2238,10 +2236,10 @@ button.startBotsToggle:hover {
 #player-count-hud {
     position: fixed;
     right: 10px;
-    top: 347px;
+    top: 240px;
     color: #ffffff;
     background-color: rgba(10, 10, 10, 0.8);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Noto Sans', sans-serif;
     padding: 4px 8px;
     border-radius: 2px;
